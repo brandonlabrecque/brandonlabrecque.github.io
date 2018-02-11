@@ -1,0 +1,143 @@
+html {
+
+    height: 100%;
+
+  }
+
+  body {
+
+     width: 800px;
+     background-image: url(island.jpg);
+     background-size: 200%;
+
+     height: 1000px;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+
+
+  header {
+
+      background-color: #005951 ;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 35px;
+      margin-bottom: 50px;
+      margin-right: 10px; 
+      border: 18px solid #270807; 
+      display: block;
+
+  }
+
+  nav {
+
+      float: left;
+
+      width: 100%;
+      background-color: rgba(127, 127, 127, 0.8)
+
+  }
+
+  nav ul {
+
+      padding: 10px;
+
+      float: left;
+
+      border-bottom: 10px;
+
+      list-style-type: none;
+
+  }
+
+  nav li {
+
+      float: left;
+
+  }
+
+  nav li a {
+
+      display: block;
+
+      height: 25px;
+
+      padding: 12px 18px 8px 18px;
+
+      vertical-align: middle;
+
+  }
+
+  a {
+
+      color: #E8B60C;
+
+  }
+
+  section {
+
+      width: 40%;
+
+      display: inline-block;
+
+      /* float: left; */
+
+  }
+img {
+    width: 300px;
+    image-rendering: pixelated;
+    display: inline-block; 
+}
+  aside {
+
+      width: 17%;
+
+      display: inline-block;
+
+      
+
+     
+
+      min-height: 100%;
+
+  }
+
+  aside ul {
+
+      list-style-type: none;
+
+  }
+p{
+    color: black;
+    size: 500px;
+    background-color: rgba(127, 127, 127, 0.8)
+}
+article{
+    display: block;
+    background-color: rgba(127, 127, 127, 0.8)
+}
+article h2, h3{
+    size:300px;
+    color: white;
+    display: inline; 
+}
+/* article h3{
+    size:300px;
+    color: white;
+    display: inline; 
+} */
+  footer {
+
+      width: 790px;
+
+      background-color: #000000;
+
+      clear: both;
+
+      display: block;
+
+  }
+  
